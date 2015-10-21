@@ -30,3 +30,14 @@ C:\Users\Nguyent04\Desktop\B2_10152015_0703\Kaliber3D\Dependencies\Renderer.Wpf\
 C:\Users\Nguyent04\Desktop\B2_10152015_0703\Kaliber3D\Dependencies\Renderer.Wpf\obj\Debug\Renderer.Wpf.csprojResolveAssemblyReference.cache
 C:\Users\Nguyent04\Desktop\B2_10152015_0703\Kaliber3D\Dependencies\Renderer.Wpf\obj\Debug\Renderer.Wpf.dll
 C:\Users\Nguyent04\Desktop\B2_10152015_0703\Kaliber3D\Dependencies\Renderer.Wpf\obj\Debug\Renderer.Wpf.pdb
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Wpf\bin\Debug\Renderer.Wpf.XML
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Wpf\bin\Debug\Renderer.Wpf.dll
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Wpf\bin\Debug\Renderer.Wpf.pdb
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Wpf\bin\Debug\Kaliber3D.Render.dll
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Wpf\bin\Debug\System.Collections.Immutable.dll
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Wpf\bin\Debug\Kaliber3D.Render.pdb
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Wpf\bin\Debug\Kaliber3D.Render.xml
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Wpf\bin\Debug\System.Collections.Immutable.xml
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Wpf\obj\Debug\Renderer.Wpf.csprojResolveAssemblyReference.cache
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Wpf\obj\Debug\Renderer.Wpf.dll
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Wpf\obj\Debug\Renderer.Wpf.pdb

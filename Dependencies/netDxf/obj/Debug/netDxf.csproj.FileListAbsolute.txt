@@ -26,3 +26,9 @@ C:\Users\Nguyent04\Desktop\B2_10152015_0703\Kaliber3D\Dependencies\netDxf\bin\De
 C:\Users\Nguyent04\Desktop\B2_10152015_0703\Kaliber3D\Dependencies\netDxf\obj\Debug\netDxf.dll
 C:\Users\Nguyent04\Desktop\B2_10152015_0703\Kaliber3D\Dependencies\netDxf\obj\Debug\netDxf.pdb
 C:\Users\Nguyent04\Desktop\B2_10152015_0703\Kaliber3D\Dependencies\netDxf\obj\Debug\netDxf.csprojResolveAssemblyReference.cache
+D:\GitHub\Kaliber3D\Dependencies\netDxf\bin\Debug\netDxf.xml
+D:\GitHub\Kaliber3D\Dependencies\netDxf\bin\Debug\netDxf.dll
+D:\GitHub\Kaliber3D\Dependencies\netDxf\bin\Debug\netDxf.pdb
+D:\GitHub\Kaliber3D\Dependencies\netDxf\obj\Debug\netDxf.csprojResolveAssemblyReference.cache
+D:\GitHub\Kaliber3D\Dependencies\netDxf\obj\Debug\netDxf.dll
+D:\GitHub\Kaliber3D\Dependencies\netDxf\obj\Debug\netDxf.pdb

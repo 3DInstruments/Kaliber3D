@@ -54,3 +54,17 @@ C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Dependencies\TextFieldReade
 C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Dependencies\TextFieldReader.CsvHelper\obj\Debug\TextFieldReader.CsvHelper.csprojResolveAssemblyReference.cache
 C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Dependencies\TextFieldReader.CsvHelper\obj\Debug\TextFieldReader.CsvHelper.dll
 C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Dependencies\TextFieldReader.CsvHelper\obj\Debug\TextFieldReader.CsvHelper.pdb
+D:\GitHub\Kaliber3D\Dependencies\TextFieldReader.CsvHelper\bin\Debug\TextFieldReader.CsvHelper.XML
+D:\GitHub\Kaliber3D\Dependencies\TextFieldReader.CsvHelper\bin\Debug\TextFieldReader.CsvHelper.dll
+D:\GitHub\Kaliber3D\Dependencies\TextFieldReader.CsvHelper\bin\Debug\TextFieldReader.CsvHelper.pdb
+D:\GitHub\Kaliber3D\Dependencies\TextFieldReader.CsvHelper\bin\Debug\CsvHelper.dll
+D:\GitHub\Kaliber3D\Dependencies\TextFieldReader.CsvHelper\bin\Debug\Kaliber3D.Render.dll
+D:\GitHub\Kaliber3D\Dependencies\TextFieldReader.CsvHelper\bin\Debug\System.Collections.Immutable.dll
+D:\GitHub\Kaliber3D\Dependencies\TextFieldReader.CsvHelper\bin\Debug\Kaliber3D.Render.pdb
+D:\GitHub\Kaliber3D\Dependencies\TextFieldReader.CsvHelper\bin\Debug\Kaliber3D.Render.xml
+D:\GitHub\Kaliber3D\Dependencies\TextFieldReader.CsvHelper\bin\Debug\CsvHelper.pdb
+D:\GitHub\Kaliber3D\Dependencies\TextFieldReader.CsvHelper\bin\Debug\CsvHelper.xml
+D:\GitHub\Kaliber3D\Dependencies\TextFieldReader.CsvHelper\bin\Debug\System.Collections.Immutable.xml
+D:\GitHub\Kaliber3D\Dependencies\TextFieldReader.CsvHelper\obj\Debug\TextFieldReader.CsvHelper.csprojResolveAssemblyReference.cache
+D:\GitHub\Kaliber3D\Dependencies\TextFieldReader.CsvHelper\obj\Debug\TextFieldReader.CsvHelper.dll
+D:\GitHub\Kaliber3D\Dependencies\TextFieldReader.CsvHelper\obj\Debug\TextFieldReader.CsvHelper.pdb

@@ -54,3 +54,17 @@ C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Dependencies\Renderer.Dxf\b
 C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Dependencies\Renderer.Dxf\obj\Debug\Renderer.Dxf.csprojResolveAssemblyReference.cache
 C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Dependencies\Renderer.Dxf\obj\Debug\Renderer.Dxf.dll
 C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Dependencies\Renderer.Dxf\obj\Debug\Renderer.Dxf.pdb
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Dxf\bin\Debug\Renderer.Dxf.XML
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Dxf\bin\Debug\Renderer.Dxf.dll
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Dxf\bin\Debug\Renderer.Dxf.pdb
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Dxf\bin\Debug\Kaliber3D.Render.dll
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Dxf\bin\Debug\netDxf.dll
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Dxf\bin\Debug\System.Collections.Immutable.dll
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Dxf\bin\Debug\Kaliber3D.Render.pdb
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Dxf\bin\Debug\Kaliber3D.Render.xml
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Dxf\bin\Debug\netDxf.pdb
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Dxf\bin\Debug\netDxf.xml
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Dxf\bin\Debug\System.Collections.Immutable.xml
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Dxf\obj\Debug\Renderer.Dxf.csprojResolveAssemblyReference.cache
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Dxf\obj\Debug\Renderer.Dxf.dll
+D:\GitHub\Kaliber3D\Dependencies\Renderer.Dxf\obj\Debug\Renderer.Dxf.pdb

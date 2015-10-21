@@ -54,3 +54,17 @@ C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Dependencies\TextFieldWrite
 C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Dependencies\TextFieldWriter.CsvHelper\obj\Debug\TextFieldWriter.CsvHelper.csprojResolveAssemblyReference.cache
 C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Dependencies\TextFieldWriter.CsvHelper\obj\Debug\TextFieldWriter.CsvHelper.dll
 C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Dependencies\TextFieldWriter.CsvHelper\obj\Debug\TextFieldWriter.CsvHelper.pdb
+D:\GitHub\Kaliber3D\Dependencies\TextFieldWriter.CsvHelper\bin\Debug\TextFieldWriter.CsvHelper.XML
+D:\GitHub\Kaliber3D\Dependencies\TextFieldWriter.CsvHelper\bin\Debug\TextFieldWriter.CsvHelper.dll
+D:\GitHub\Kaliber3D\Dependencies\TextFieldWriter.CsvHelper\bin\Debug\TextFieldWriter.CsvHelper.pdb
+D:\GitHub\Kaliber3D\Dependencies\TextFieldWriter.CsvHelper\bin\Debug\CsvHelper.dll
+D:\GitHub\Kaliber3D\Dependencies\TextFieldWriter.CsvHelper\bin\Debug\Kaliber3D.Render.dll
+D:\GitHub\Kaliber3D\Dependencies\TextFieldWriter.CsvHelper\bin\Debug\System.Collections.Immutable.dll
+D:\GitHub\Kaliber3D\Dependencies\TextFieldWriter.CsvHelper\bin\Debug\Kaliber3D.Render.pdb
+D:\GitHub\Kaliber3D\Dependencies\TextFieldWriter.CsvHelper\bin\Debug\Kaliber3D.Render.xml
+D:\GitHub\Kaliber3D\Dependencies\TextFieldWriter.CsvHelper\bin\Debug\CsvHelper.pdb
+D:\GitHub\Kaliber3D\Dependencies\TextFieldWriter.CsvHelper\bin\Debug\CsvHelper.xml
+D:\GitHub\Kaliber3D\Dependencies\TextFieldWriter.CsvHelper\bin\Debug\System.Collections.Immutable.xml
+D:\GitHub\Kaliber3D\Dependencies\TextFieldWriter.CsvHelper\obj\Debug\TextFieldWriter.CsvHelper.csprojResolveAssemblyReference.cache
+D:\GitHub\Kaliber3D\Dependencies\TextFieldWriter.CsvHelper\obj\Debug\TextFieldWriter.CsvHelper.dll
+D:\GitHub\Kaliber3D\Dependencies\TextFieldWriter.CsvHelper\obj\Debug\TextFieldWriter.CsvHelper.pdb

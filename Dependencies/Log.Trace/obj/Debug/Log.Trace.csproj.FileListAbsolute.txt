@@ -38,3 +38,13 @@ C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Dependencies\Log.Trace\bin\
 C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Dependencies\Log.Trace\obj\Debug\Log.Trace.csprojResolveAssemblyReference.cache
 C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Dependencies\Log.Trace\obj\Debug\Log.Trace.dll
 C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Dependencies\Log.Trace\obj\Debug\Log.Trace.pdb
+D:\GitHub\Kaliber3D\Dependencies\Log.Trace\bin\Debug\Log.Trace.dll
+D:\GitHub\Kaliber3D\Dependencies\Log.Trace\bin\Debug\Log.Trace.pdb
+D:\GitHub\Kaliber3D\Dependencies\Log.Trace\bin\Debug\Kaliber3D.Render.dll
+D:\GitHub\Kaliber3D\Dependencies\Log.Trace\bin\Debug\System.Collections.Immutable.dll
+D:\GitHub\Kaliber3D\Dependencies\Log.Trace\bin\Debug\Kaliber3D.Render.pdb
+D:\GitHub\Kaliber3D\Dependencies\Log.Trace\bin\Debug\Kaliber3D.Render.xml
+D:\GitHub\Kaliber3D\Dependencies\Log.Trace\bin\Debug\System.Collections.Immutable.xml
+D:\GitHub\Kaliber3D\Dependencies\Log.Trace\obj\Debug\Log.Trace.csprojResolveAssemblyReference.cache
+D:\GitHub\Kaliber3D\Dependencies\Log.Trace\obj\Debug\Log.Trace.dll
+D:\GitHub\Kaliber3D\Dependencies\Log.Trace\obj\Debug\Log.Trace.pdb

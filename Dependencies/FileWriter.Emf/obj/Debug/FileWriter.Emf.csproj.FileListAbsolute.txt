@@ -40,3 +40,17 @@ C:\Users\Nguyent04\Desktop\B2_10152015_0703\Kaliber3D\Dependencies\FileWriter.Em
 C:\Users\Nguyent04\Desktop\B2_10152015_0703\Kaliber3D\Dependencies\FileWriter.Emf\obj\Debug\FileWriter.Emf.csprojResolveAssemblyReference.cache
 C:\Users\Nguyent04\Desktop\B2_10152015_0703\Kaliber3D\Dependencies\FileWriter.Emf\obj\Debug\FileWriter.Emf.dll
 C:\Users\Nguyent04\Desktop\B2_10152015_0703\Kaliber3D\Dependencies\FileWriter.Emf\obj\Debug\FileWriter.Emf.pdb
+D:\GitHub\Kaliber3D\Dependencies\FileWriter.Emf\bin\Debug\FileWriter.Emf.XML
+D:\GitHub\Kaliber3D\Dependencies\FileWriter.Emf\bin\Debug\FileWriter.Emf.dll
+D:\GitHub\Kaliber3D\Dependencies\FileWriter.Emf\bin\Debug\FileWriter.Emf.pdb
+D:\GitHub\Kaliber3D\Dependencies\FileWriter.Emf\bin\Debug\Kaliber3D.Render.dll
+D:\GitHub\Kaliber3D\Dependencies\FileWriter.Emf\bin\Debug\Renderer.WinForms.dll
+D:\GitHub\Kaliber3D\Dependencies\FileWriter.Emf\bin\Debug\System.Collections.Immutable.dll
+D:\GitHub\Kaliber3D\Dependencies\FileWriter.Emf\bin\Debug\Kaliber3D.Render.pdb
+D:\GitHub\Kaliber3D\Dependencies\FileWriter.Emf\bin\Debug\Kaliber3D.Render.xml
+D:\GitHub\Kaliber3D\Dependencies\FileWriter.Emf\bin\Debug\Renderer.WinForms.pdb
+D:\GitHub\Kaliber3D\Dependencies\FileWriter.Emf\bin\Debug\Renderer.WinForms.xml
+D:\GitHub\Kaliber3D\Dependencies\FileWriter.Emf\bin\Debug\System.Collections.Immutable.xml
+D:\GitHub\Kaliber3D\Dependencies\FileWriter.Emf\obj\Debug\FileWriter.Emf.csprojResolveAssemblyReference.cache
+D:\GitHub\Kaliber3D\Dependencies\FileWriter.Emf\obj\Debug\FileWriter.Emf.dll
+D:\GitHub\Kaliber3D\Dependencies\FileWriter.Emf\obj\Debug\FileWriter.Emf.pdb

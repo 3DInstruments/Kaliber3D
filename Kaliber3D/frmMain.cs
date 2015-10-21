@@ -36,6 +36,9 @@ namespace Kaliber3D
         private List<double> _interpressures, _interangles;
         private List<double> _minorpressures, _minorangles;
 
+        SerialClient serial1;
+        string storedResponses;
+        CultureInfo enUS = new CultureInfo("en-US");
 
         /// <summary>
         /// 
@@ -123,6 +126,12 @@ namespace Kaliber3D
                 return;
 
             context.Dispose();
+
+            if (serial1 == null)
+                return;
+            serial1.CloseConn();
+            serial1.OnReceiving -= new EventHandler<DataStreamEventArgs>(receiveHandler);
+            serial1.Dispose();
         }
 
         void InitSkinGallery()
@@ -337,8 +346,19 @@ namespace Kaliber3D
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            configPane1.digitalGauge1.Text = DateTime.Now.ToString("hmm.ss tt");
+            //configPane1.digitalGauge1.Text = DateTime.Now.ToString("hmm.ss tt");
             configPane1.digitalGauge3.Text = DateTime.Now.ToString("hmm.ss tt");
+            try
+            {
+                serial1.Transmit("B?");
+                //decimal testva = Decimal.Parse(test, NumberStyles.Float, us);
+                string[] response = storedResponses.Split('\r');
+                configPane1.digitalGauge1.Text = Decimal.Round(Decimal.Parse(response[1].TrimStart('E'), NumberStyles.Float, enUS), 3).ToString();
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
 
         private void barButtonItem2_ItemClick(object sender, ItemClickEventArgs e)
@@ -840,6 +860,25 @@ namespace Kaliber3D
                 return;
             context.OnRemoveLayer(name);
             InvalidateContainer();
+        }
+
+        private void btnConnect_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            serial1 = new SerialClient("COM4", 57600);
+            serial1.OnReceiving += new EventHandler<DataStreamEventArgs>(receiveHandler);
+            if (!serial1.OpenConn())
+            {
+                MessageBox.Show(this, "The Port Cannot Be Opened", "Serial Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void receiveHandler(object sender, DataStreamEventArgs e)
+        {
+            //storedResponses++;
+            //minLen = minLen > e.Response.Length ? e.Response.Length : minLen;
+            //maxLen = maxLen < e.Response.Length ? e.Response.Length : maxLen;
+            //currentLen = e.Response.Length;
+            storedResponses = (e.Response != null && e.Response.Length > 0) ? Encoding.ASCII.GetString(e.Response, 0, e.Response.Length) : "0.000";
         }
     }
 }

@@ -20,3 +20,11 @@ C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Kaliber3D.Render\bin\Debug\
 C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Kaliber3D.Render\obj\Debug\Kaliber3D.Render.csprojResolveAssemblyReference.cache
 C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Kaliber3D.Render\obj\Debug\Kaliber3D.Render.dll
 C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Kaliber3D.Render\obj\Debug\Kaliber3D.Render.pdb
+D:\GitHub\Kaliber3D\Kaliber3D.Render\bin\Debug\Kaliber3D.Render.xml
+D:\GitHub\Kaliber3D\Kaliber3D.Render\bin\Debug\Kaliber3D.Render.dll
+D:\GitHub\Kaliber3D\Kaliber3D.Render\bin\Debug\Kaliber3D.Render.pdb
+D:\GitHub\Kaliber3D\Kaliber3D.Render\bin\Debug\System.Collections.Immutable.dll
+D:\GitHub\Kaliber3D\Kaliber3D.Render\bin\Debug\System.Collections.Immutable.xml
+D:\GitHub\Kaliber3D\Kaliber3D.Render\obj\Debug\Kaliber3D.Render.csprojResolveAssemblyReference.cache
+D:\GitHub\Kaliber3D\Kaliber3D.Render\obj\Debug\Kaliber3D.Render.dll
+D:\GitHub\Kaliber3D\Kaliber3D.Render\obj\Debug\Kaliber3D.Render.pdb

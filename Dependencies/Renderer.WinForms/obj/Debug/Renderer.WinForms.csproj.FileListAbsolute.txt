@@ -42,3 +42,14 @@ C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Dependencies\Renderer.WinFo
 C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Dependencies\Renderer.WinForms\obj\Debug\Renderer.WinForms.csprojResolveAssemblyReference.cache
 C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Dependencies\Renderer.WinForms\obj\Debug\Renderer.WinForms.dll
 C:\Users\Nguyent04\Desktop\B2_10162015_616\Kaliber3D\Dependencies\Renderer.WinForms\obj\Debug\Renderer.WinForms.pdb
+D:\GitHub\Kaliber3D\Dependencies\Renderer.WinForms\bin\Debug\Renderer.WinForms.XML
+D:\GitHub\Kaliber3D\Dependencies\Renderer.WinForms\bin\Debug\Renderer.WinForms.dll
+D:\GitHub\Kaliber3D\Dependencies\Renderer.WinForms\bin\Debug\Renderer.WinForms.pdb
+D:\GitHub\Kaliber3D\Dependencies\Renderer.WinForms\bin\Debug\Kaliber3D.Render.dll
+D:\GitHub\Kaliber3D\Dependencies\Renderer.WinForms\bin\Debug\System.Collections.Immutable.dll
+D:\GitHub\Kaliber3D\Dependencies\Renderer.WinForms\bin\Debug\Kaliber3D.Render.pdb
+D:\GitHub\Kaliber3D\Dependencies\Renderer.WinForms\bin\Debug\Kaliber3D.Render.xml
+D:\GitHub\Kaliber3D\Dependencies\Renderer.WinForms\bin\Debug\System.Collections.Immutable.xml
+D:\GitHub\Kaliber3D\Dependencies\Renderer.WinForms\obj\Debug\Renderer.WinForms.csprojResolveAssemblyReference.cache
+D:\GitHub\Kaliber3D\Dependencies\Renderer.WinForms\obj\Debug\Renderer.WinForms.dll
+D:\GitHub\Kaliber3D\Dependencies\Renderer.WinForms\obj\Debug\Renderer.WinForms.pdb

@@ -1,0 +1,8 @@
+﻿[ ]	public variables for all input in the configPane
+[ ]	
+
+
+Kaliber3D.Render
+[x] Project > Options - Selection Highlight Define.
+[x] PdfRenderer - Printing Paper Size Define.
+[3] EmfRender - var pen = new Pen(ToColor(style.Stroke), (float)(style.Thickness));

@@ -180,6 +180,7 @@
             this.saveFileDialog2 = new System.Windows.Forms.SaveFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.btnConnect = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.navbarImageCollectionLarge)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.navbarImageCollection)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl)).BeginInit();
@@ -316,10 +317,11 @@
             this.eoBack,
             this.eoBackward,
             this.eoForward,
-            this.eoFront});
+            this.eoFront,
+            this.btnConnect});
             this.ribbonControl.LargeImages = this.ribbonImageCollectionLarge;
             this.ribbonControl.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl.MaxItemId = 54;
+            this.ribbonControl.MaxItemId = 55;
             this.ribbonControl.Name = "ribbonControl";
             this.ribbonControl.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
@@ -922,6 +924,7 @@
             // ribbonPageGroup1
             // 
             this.ribbonPageGroup1.Glyph = ((System.Drawing.Image)(resources.GetObject("ribbonPageGroup1.Glyph")));
+            this.ribbonPageGroup1.ItemLinks.Add(this.btnConnect);
             this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem1);
             this.ribbonPageGroup1.ItemLinks.Add(this.progressbar);
             this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem2);
@@ -1579,7 +1582,7 @@
             // 
             this.controlContainer1.Location = new System.Drawing.Point(0, 0);
             this.controlContainer1.Name = "controlContainer1";
-            this.controlContainer1.Size = new System.Drawing.Size(986, 542);
+            this.controlContainer1.Size = new System.Drawing.Size(551, 542);
             this.controlContainer1.TabIndex = 0;
             // 
             // document2
@@ -1692,6 +1695,15 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // btnConnect
+            // 
+            this.btnConnect.Caption = "Connect";
+            this.btnConnect.Glyph = ((System.Drawing.Image)(resources.GetObject("btnConnect.Glyph")));
+            this.btnConnect.Id = 54;
+            this.btnConnect.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btnConnect.LargeGlyph")));
+            this.btnConnect.Name = "btnConnect";
+            this.btnConnect.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnConnect_ItemClick);
             // 
             // frmMain
             // 
@@ -1904,6 +1916,7 @@
         private DevExpress.XtraBars.BarButtonItem eoBackward;
         private DevExpress.XtraBars.BarButtonItem eoFront;
         private DevExpress.XtraBars.BarButtonItem eoForward;
+        private DevExpress.XtraBars.BarButtonItem btnConnect;
 
     }
 }
