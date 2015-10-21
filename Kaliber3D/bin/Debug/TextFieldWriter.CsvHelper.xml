@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TextFieldWriter.CsvHelper</name>
+    </assembly>
+    <members>
+        <member name="T:Kaliber3D.Render.CsvHelperWriter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Kaliber3D.Render.CsvHelperWriter.Write(System.String,Kaliber3D.Render.Database)">
+             <summary>
+            
+             </summary>
+             <param name="path"></param>
+             <param name="database"></param>
+        </member>
+    </members>
+</doc>

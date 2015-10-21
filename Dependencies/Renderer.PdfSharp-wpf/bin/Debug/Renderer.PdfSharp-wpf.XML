@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Renderer.PdfSharp-wpf</name>
+    </assembly>
+    <members>
+        <member name="T:PdfSharp.XPathGeometryConverter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PdfSharp.XPathGeometryConverter.ToXGraphicsPath(Kaliber3D.Render.XPathGeometry,System.Double,System.Double,System.Func{System.Double,System.Double})">
+            <summary>
+            
+            </summary>
+            <param name="pg"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="scale"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PdfSharp.PdfRenderer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.Create">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.Save(System.String,Kaliber3D.Render.Container)">
+            <summary>
+            
+            </summary>
+            <param name="path"></param>
+            <param name="container"></param>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.Save(System.String,Kaliber3D.Render.Document)">
+            <summary>
+            
+            </summary>
+            <param name="path"></param>
+            <param name="document"></param>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.Save(System.String,Kaliber3D.Render.Project)">
+            <summary>
+            
+            </summary>
+            <param name="path"></param>
+            <param name="project"></param>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.Add(PdfSharp.Pdf.PdfDocument,Kaliber3D.Render.Container)">
+            <summary>
+            
+            </summary>
+            <param name="pdf"></param>
+            <param name="container"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.ToXColor(Kaliber3D.Render.ArgbColor)">
+            <summary>
+            
+            </summary>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.ToXPen(Kaliber3D.Render.BaseStyle,System.Func{System.Double,System.Double})">
+            <summary>
+            
+            </summary>
+            <param name="style"></param>
+            <param name="scale"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.ToXSolidBrush(Kaliber3D.Render.ArgbColor)">
+            <summary>
+            
+            </summary>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.DrawLineInternal(PdfSharp.Drawing.XGraphics,PdfSharp.Drawing.XPen,System.Boolean,PdfSharp.Drawing.XPoint@,PdfSharp.Drawing.XPoint@)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="pen"></param>
+            <param name="isStroked"></param>
+            <param name="p0"></param>
+            <param name="p1"></param>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.DrawRectangleInternal(PdfSharp.Drawing.XGraphics,PdfSharp.Drawing.XSolidBrush,PdfSharp.Drawing.XPen,System.Boolean,System.Boolean,PdfSharp.Drawing.XRect@)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="brush"></param>
+            <param name="pen"></param>
+            <param name="isStroked"></param>
+            <param name="isFilled"></param>
+            <param name="rect"></param>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.DrawEllipseInternal(PdfSharp.Drawing.XGraphics,PdfSharp.Drawing.XSolidBrush,PdfSharp.Drawing.XPen,System.Boolean,System.Boolean,PdfSharp.Drawing.XRect@)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="brush"></param>
+            <param name="pen"></param>
+            <param name="isStroked"></param>
+            <param name="isFilled"></param>
+            <param name="rect"></param>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.DrawGridInternal(PdfSharp.Drawing.XGraphics,PdfSharp.Drawing.XPen,Kaliber3D.Render.Rect2@,System.Double,System.Double,System.Double,System.Double,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="stroke"></param>
+            <param name="rect"></param>
+            <param name="offsetX"></param>
+            <param name="offsetY"></param>
+            <param name="cellWidth"></param>
+            <param name="cellHeight"></param>
+            <param name="isStroked"></param>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.DrawBackgroundInternal(PdfSharp.Drawing.XGraphics,Kaliber3D.Render.ArgbColor,Kaliber3D.Render.Rect2)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="color"></param>
+            <param name="rect"></param>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.ClearCache(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="isZooming"></param>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.Draw(System.Object,Kaliber3D.Render.Container,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="container"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.Draw(System.Object,Kaliber3D.Render.Layer,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="layer"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.Draw(System.Object,Kaliber3D.Render.XLine,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="line"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.Draw(System.Object,Kaliber3D.Render.XRectangle,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="rectangle"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.Draw(System.Object,Kaliber3D.Render.XEllipse,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="ellipse"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.Draw(System.Object,Kaliber3D.Render.XArc,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="arc"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.Draw(System.Object,Kaliber3D.Render.XBezier,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="bezier"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.Draw(System.Object,Kaliber3D.Render.XQBezier,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="qbezier"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.Draw(System.Object,Kaliber3D.Render.XText,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="text"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.Draw(System.Object,Kaliber3D.Render.XImage,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="image"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:PdfSharp.PdfRenderer.Draw(System.Object,Kaliber3D.Render.XPath,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="path"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="P:PdfSharp.PdfRenderer.State">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

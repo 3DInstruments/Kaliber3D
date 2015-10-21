@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Serializer.Newtonsoft</name>
+    </assembly>
+    <members>
+        <member name="T:Kaliber3D.Render.ProjectContractResolver">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Kaliber3D.Render.ProjectContractResolver.CreateProperties(System.Type,Newtonsoft.Json.MemberSerialization)">
+            <summary>
+            Serialize only writable properties. 
+            </summary>
+            <param name="type"></param>
+            <param name="memberSerialization"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Kaliber3D.Render.NewtonsoftSerializer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Kaliber3D.Render.NewtonsoftSerializer.Serialize``1(``0)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kaliber3D.Render.NewtonsoftSerializer.Deserialize``1(System.String)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="json"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

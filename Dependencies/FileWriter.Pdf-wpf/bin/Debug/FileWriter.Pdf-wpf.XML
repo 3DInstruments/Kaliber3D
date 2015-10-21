@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FileWriter.Pdf-wpf</name>
+    </assembly>
+    <members>
+        <member name="T:Kaliber3D.Render.PdfWriter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Kaliber3D.Render.PdfWriter.Save(System.String,System.Object,System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="path"></param>
+            <param name="item"></param>
+            <param name="options"></param>
+        </member>
+    </members>
+</doc>

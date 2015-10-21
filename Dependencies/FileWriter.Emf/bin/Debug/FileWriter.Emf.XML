@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FileWriter.Emf</name>
+    </assembly>
+    <members>
+        <member name="T:Kaliber3D.Render.EmfWriter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfWriter.MakeMetafileStream(System.Drawing.Bitmap,System.Collections.Generic.IEnumerable{Kaliber3D.Render.BaseShape},System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.IImageCache)">
+            <summary>
+            
+            </summary>
+            <param name="bitmap"></param>
+            <param name="shapes"></param>
+            <param name="properties"></param>
+            <param name="ic"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfWriter.MakeMetafileStream(System.Drawing.Bitmap,Kaliber3D.Render.Container,Kaliber3D.Render.IImageCache)">
+            <summary>
+            
+            </summary>
+            <param name="bitmap"></param>
+            <param name="container"></param>
+            <param name="ic"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfWriter.SetClipboard(System.Collections.Generic.IEnumerable{Kaliber3D.Render.BaseShape},System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.IImageCache)">
+            <summary>
+            
+            </summary>
+            <param name="shapes"></param>
+            <param name="width"></param>
+            <param name="height"></param>
+            <param name="properties"></param>
+            <param name="ic"></param>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfWriter.SetClipboard(Kaliber3D.Render.Container,Kaliber3D.Render.IImageCache)">
+            <summary>
+            
+            </summary>
+            <param name="container"></param>
+            <param name="ic"></param>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfWriter.Save(System.String,Kaliber3D.Render.Container,Kaliber3D.Render.IImageCache)">
+            <summary>
+            
+            </summary>
+            <param name="path"></param>
+            <param name="container"></param>
+            <param name="ic"></param>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfWriter.Save(System.String,System.Object,System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="path"></param>
+            <param name="item"></param>
+            <param name="options"></param>
+        </member>
+    </members>
+</doc>

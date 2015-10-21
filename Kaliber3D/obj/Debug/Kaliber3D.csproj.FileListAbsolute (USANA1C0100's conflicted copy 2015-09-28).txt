@@ -1,0 +1,18 @@
+C:\Users\Nguyent04\Documents\Visual Studio 2012\Projects\Kaliber3D\Kaliber3D\bin\Debug\Kaliber3D.exe
+C:\Users\Nguyent04\Documents\Visual Studio 2012\Projects\Kaliber3D\Kaliber3D\bin\Debug\Kaliber3D.pdb
+C:\Users\Nguyent04\Documents\Visual Studio 2012\Projects\Kaliber3D\Kaliber3D\obj\Debug\Kaliber3D.csprojResolveAssemblyReference.cache
+C:\Users\Nguyent04\Documents\Visual Studio 2012\Projects\Kaliber3D\Kaliber3D\obj\Debug\Kaliber3D.Properties.Resources.resources
+C:\Users\Nguyent04\Documents\Visual Studio 2012\Projects\Kaliber3D\Kaliber3D\obj\Debug\Kaliber3D.csproj.GenerateResource.Cache
+C:\Users\Nguyent04\Documents\Visual Studio 2012\Projects\Kaliber3D\Kaliber3D\obj\Debug\Kaliber3D.exe.licenses
+C:\Users\Nguyent04\Documents\Visual Studio 2012\Projects\Kaliber3D\Kaliber3D\obj\Debug\Kaliber3D.exe
+C:\Users\Nguyent04\Documents\Visual Studio 2012\Projects\Kaliber3D\Kaliber3D\obj\Debug\Kaliber3D.pdb
+C:\Users\Nguyent04\Documents\Visual Studio 2012\Projects\Kaliber3D\Kaliber3D\obj\Debug\Kaliber3D.frmMain.resources
+C:\Users\Nguyent04\Desktop\Final\Kaliber3D\Kaliber3D\obj\Debug\Kaliber3D.exe
+C:\Users\Nguyent04\Desktop\Final\Kaliber3D\Kaliber3D\obj\Debug\Kaliber3D.pdb
+C:\Users\Nguyent04\Desktop\Final\Kaliber3D\Kaliber3D\bin\Debug\Kaliber3D.exe
+C:\Users\Nguyent04\Desktop\Final\Kaliber3D\Kaliber3D\bin\Debug\Kaliber3D.pdb
+C:\Users\Nguyent04\Desktop\Final\Kaliber3D\Kaliber3D\obj\Debug\Kaliber3D.frmMain.resources
+C:\Users\Nguyent04\Desktop\Final\Kaliber3D\Kaliber3D\obj\Debug\Kaliber3D.Properties.Resources.resources
+C:\Users\Nguyent04\Desktop\Final\Kaliber3D\Kaliber3D\obj\Debug\Kaliber3D.csproj.GenerateResource.Cache
+C:\Users\Nguyent04\Desktop\Final\Kaliber3D\Kaliber3D\obj\Debug\Kaliber3D.exe.licenses
+C:\Users\Nguyent04\Desktop\Final\Kaliber3D\Kaliber3D\obj\Debug\Kaliber3D.csprojResolveAssemblyReference.cache

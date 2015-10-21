@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Renderer.WinForms</name>
+    </assembly>
+    <members>
+        <member name="T:Kaliber3D.Render.EmfRenderer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Kaliber3D.Render.EmfRenderer._scaleToPage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Kaliber3D.Render.EmfRenderer._textScaleFactor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.#ctor(System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="textScaleFactor"></param>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.Create">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.ToColor(Kaliber3D.Render.ArgbColor)">
+            <summary>
+            
+            </summary>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.ToPen(Kaliber3D.Render.BaseStyle,System.Func{System.Double,System.Single})">
+            <summary>
+            
+            </summary>
+            <param name="style"></param>
+            <param name="scale"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.ToSolidBrush(Kaliber3D.Render.ArgbColor)">
+            <summary>
+            
+            </summary>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.CreateRect(Kaliber3D.Render.XPoint,Kaliber3D.Render.XPoint,System.Double,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="tl"></param>
+            <param name="br"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.DrawLineInternal(System.Drawing.Graphics,System.Drawing.Pen,System.Boolean,System.Drawing.PointF@,System.Drawing.PointF@)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="pen"></param>
+            <param name="isStroked"></param>
+            <param name="p0"></param>
+            <param name="p1"></param>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.DrawRectangleInternal(System.Drawing.Graphics,System.Drawing.Brush,System.Drawing.Pen,System.Boolean,System.Boolean,Kaliber3D.Render.Rect2@)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="brush"></param>
+            <param name="pen"></param>
+            <param name="isStroked"></param>
+            <param name="isFilled"></param>
+            <param name="rect"></param>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.DrawEllipseInternal(System.Drawing.Graphics,System.Drawing.Brush,System.Drawing.Pen,System.Boolean,System.Boolean,Kaliber3D.Render.Rect2@)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="brush"></param>
+            <param name="pen"></param>
+            <param name="isStroked"></param>
+            <param name="isFilled"></param>
+            <param name="rect"></param>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.DrawGridInternal(System.Drawing.Graphics,System.Drawing.Pen,Kaliber3D.Render.Rect2@,System.Double,System.Double,System.Double,System.Double,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="stroke"></param>
+            <param name="rect"></param>
+            <param name="offsetX"></param>
+            <param name="offsetY"></param>
+            <param name="cellWidth"></param>
+            <param name="cellHeight"></param>
+            <param name="isStroked"></param>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.DrawBackgroundInternal(System.Drawing.Graphics,Kaliber3D.Render.Container)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="container"></param>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.ClearCache(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="isZooming"></param>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.Draw(System.Object,Kaliber3D.Render.Container,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="container"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.Draw(System.Object,Kaliber3D.Render.Layer,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="layer"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.Draw(System.Object,Kaliber3D.Render.XLine,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="line"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.Draw(System.Object,Kaliber3D.Render.XRectangle,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="rectangle"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.Draw(System.Object,Kaliber3D.Render.XEllipse,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="ellipse"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.Draw(System.Object,Kaliber3D.Render.XArc,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="arc"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.Draw(System.Object,Kaliber3D.Render.XBezier,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="bezier"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.Draw(System.Object,Kaliber3D.Render.XQBezier,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="qbezier"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.Draw(System.Object,Kaliber3D.Render.XText,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="text"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.Draw(System.Object,Kaliber3D.Render.XImage,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="image"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:Kaliber3D.Render.EmfRenderer.Draw(System.Object,Kaliber3D.Render.XPath,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="gfx"></param>
+            <param name="path"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="P:Kaliber3D.Render.EmfRenderer.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Kaliber3D.Render.XPathGeometryConverter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Kaliber3D.Render.XPathGeometryConverter.ToGraphicsPath(Kaliber3D.Render.XPathGeometry,System.Double,System.Double,System.Func{System.Double,System.Single})">
+            <summary>
+            
+            </summary>
+            <param name="pg"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="scale"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

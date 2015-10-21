@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Renderer.Wpf</name>
+    </assembly>
+    <members>
+        <member name="T:Test.PathGeometryConverter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Test.PathGeometryConverter.ToXPoints(System.Collections.Generic.IList{System.Windows.Point})">
+            <summary>
+            
+            </summary>
+            <param name="points"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Test.PathGeometryConverter.ToXPathGeometry(System.Windows.Media.PathGeometry)">
+            <summary>
+            
+            </summary>
+            <param name="pg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Test.PathGeometryConverter.ToXPathGeometry(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Test.XPathGeometryConverter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Test.XPathGeometryConverter.ToPoints(System.Collections.Generic.IList{Kaliber3D.Render.XPoint})">
+            <summary>
+            
+            </summary>
+            <param name="xpoints"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Test.XPathGeometryConverter.ToStreamGeometry(Kaliber3D.Render.XPathGeometry)">
+            <summary>
+            
+            </summary>
+            <param name="xpg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Test.XPathGeometryConverter.ToPathGeometry(Kaliber3D.Render.XPathGeometry)">
+            <summary>
+            
+            </summary>
+            <param name="xpg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Test.XPathGeometryConverter.ToSource(Kaliber3D.Render.XPathGeometry)">
+            <summary>
+            
+            </summary>
+            <param name="xpg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Test.XPathGeometryConverter.ToSource(System.Windows.Media.StreamGeometry)">
+            <summary>
+            
+            </summary>
+            <param name="sg"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Test.WpfRenderer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Test.WpfRenderer.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Test.WpfRenderer.Create">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Test.WpfRenderer.GetTextOrigin(Kaliber3D.Render.ShapeStyle,System.Windows.Rect@,System.Windows.Media.FormattedText)">
+            <summary>
+            
+            </summary>
+            <param name="style"></param>
+            <param name="rect"></param>
+            <param name="ft"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Test.WpfRenderer.CreateBrush(Kaliber3D.Render.ArgbColor)">
+            <summary>
+            
+            </summary>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Test.WpfRenderer.CreatePen(Kaliber3D.Render.BaseStyle,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="style"></param>
+            <param name="thickness"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Test.WpfRenderer.CreateRect(Kaliber3D.Render.XPoint,Kaliber3D.Render.XPoint,System.Double,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="tl"></param>
+            <param name="br"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Test.WpfRenderer.DrawLineInternal(System.Windows.Media.DrawingContext,System.Double,System.Windows.Media.Pen,System.Boolean,System.Windows.Point@,System.Windows.Point@)">
+            <summary>
+            
+            </summary>
+            <param name="dc"></param>
+            <param name="half"></param>
+            <param name="pen"></param>
+            <param name="isStroked"></param>
+            <param name="p0"></param>
+            <param name="p1"></param>
+        </member>
+        <member name="M:Test.WpfRenderer.DrawRectangleInternal(System.Windows.Media.DrawingContext,System.Double,System.Windows.Media.Brush,System.Windows.Media.Pen,System.Boolean,System.Boolean,System.Windows.Rect@)">
+            <summary>
+            
+            </summary>
+            <param name="dc"></param>
+            <param name="half"></param>
+            <param name="brush"></param>
+            <param name="pen"></param>
+            <param name="isStroked"></param>
+            <param name="isFilled"></param>
+            <param name="rect"></param>
+        </member>
+        <member name="M:Test.WpfRenderer.DrawEllipseInternal(System.Windows.Media.DrawingContext,System.Double,System.Windows.Media.Brush,System.Windows.Media.Pen,System.Boolean,System.Boolean,System.Windows.Point@,System.Double,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="dc"></param>
+            <param name="half"></param>
+            <param name="brush"></param>
+            <param name="pen"></param>
+            <param name="isStroked"></param>
+            <param name="isFilled"></param>
+            <param name="center"></param>
+            <param name="rx"></param>
+            <param name="ry"></param>
+        </member>
+        <member name="M:Test.WpfRenderer.DrawPathGeometryInternal(System.Windows.Media.DrawingContext,System.Double,System.Windows.Media.Brush,System.Windows.Media.Pen,System.Boolean,System.Boolean,System.Windows.Media.PathGeometry)">
+            <summary>
+            
+            </summary>
+            <param name="dc"></param>
+            <param name="half"></param>
+            <param name="brush"></param>
+            <param name="pen"></param>
+            <param name="isStroked"></param>
+            <param name="isFilled"></param>
+            <param name="pg"></param>
+        </member>
+        <member name="M:Test.WpfRenderer.DrawGridInternal(System.Windows.Media.DrawingContext,System.Double,System.Windows.Media.Pen,System.Windows.Rect@,System.Double,System.Double,System.Double,System.Double,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="dc"></param>
+            <param name="half"></param>
+            <param name="stroke"></param>
+            <param name="rect"></param>
+            <param name="offsetX"></param>
+            <param name="offsetY"></param>
+            <param name="cellWidth"></param>
+            <param name="cellHeight"></param>
+            <param name="isStroked"></param>
+        </member>
+        <member name="M:Test.WpfRenderer.DrawBackground(System.Windows.Media.DrawingContext,Kaliber3D.Render.Container)">
+            <summary>
+            
+            </summary>
+            <param name="dc"></param>
+            <param name="container"></param>
+        </member>
+        <member name="M:Test.WpfRenderer.ClearCache(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="isZooming"></param>
+        </member>
+        <member name="M:Test.WpfRenderer.Draw(System.Object,Kaliber3D.Render.Container,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="dc"></param>
+            <param name="container"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:Test.WpfRenderer.Draw(System.Object,Kaliber3D.Render.Layer,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="dc"></param>
+            <param name="layer"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:Test.WpfRenderer.Draw(System.Object,Kaliber3D.Render.XLine,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="dc"></param>
+            <param name="line"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:Test.WpfRenderer.Draw(System.Object,Kaliber3D.Render.XRectangle,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="dc"></param>
+            <param name="rectangle"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:Test.WpfRenderer.Draw(System.Object,Kaliber3D.Render.XEllipse,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="dc"></param>
+            <param name="ellipse"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:Test.WpfRenderer.Draw(System.Object,Kaliber3D.Render.XArc,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="dc"></param>
+            <param name="arc"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:Test.WpfRenderer.Draw(System.Object,Kaliber3D.Render.XBezier,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="dc"></param>
+            <param name="bezier"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:Test.WpfRenderer.Draw(System.Object,Kaliber3D.Render.XQBezier,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="dc"></param>
+            <param name="qbezier"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:Test.WpfRenderer.Draw(System.Object,Kaliber3D.Render.XText,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="dc"></param>
+            <param name="text"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:Test.WpfRenderer.Draw(System.Object,Kaliber3D.Render.XImage,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="dc"></param>
+            <param name="image"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:Test.WpfRenderer.Draw(System.Object,Kaliber3D.Render.XPath,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="dc"></param>
+            <param name="path"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="P:Test.WpfRenderer.State">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

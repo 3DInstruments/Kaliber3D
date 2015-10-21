@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Renderer.Dxf</name>
+    </assembly>
+    <members>
+        <member name="T:netDxf.DxfRenderer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:netDxf.DxfRenderer.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:netDxf.DxfRenderer.Create">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:netDxf.DxfRenderer.Save(System.String,Kaliber3D.Render.Container)">
+            <summary>
+            
+            </summary>
+            <param name="path"></param>
+            <param name="container"></param>
+        </member>
+        <member name="M:netDxf.DxfRenderer.Add(netDxf.DxfDocument,Kaliber3D.Render.Container)">
+            <summary>
+            
+            </summary>
+            <param name="doc"></param>
+            <param name="container"></param>
+        </member>
+        <member name="M:netDxf.DxfRenderer.ToDxfX(System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="x"></param>
+            <returns></returns>
+        </member>
+        <member name="M:netDxf.DxfRenderer.ToDxfY(System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:netDxf.DxfRenderer.ClearCache(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="isZooming"></param>
+        </member>
+        <member name="M:netDxf.DxfRenderer.Draw(System.Object,Kaliber3D.Render.Container,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="doc"></param>
+            <param name="container"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:netDxf.DxfRenderer.Draw(System.Object,Kaliber3D.Render.Layer,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="doc"></param>
+            <param name="layer"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:netDxf.DxfRenderer.Draw(System.Object,Kaliber3D.Render.XLine,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="doc"></param>
+            <param name="line"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:netDxf.DxfRenderer.Draw(System.Object,Kaliber3D.Render.XRectangle,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="doc"></param>
+            <param name="rectangle"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:netDxf.DxfRenderer.Draw(System.Object,Kaliber3D.Render.XEllipse,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="doc"></param>
+            <param name="ellipse"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:netDxf.DxfRenderer.Draw(System.Object,Kaliber3D.Render.XArc,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="doc"></param>
+            <param name="arc"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:netDxf.DxfRenderer.Draw(System.Object,Kaliber3D.Render.XBezier,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="doc"></param>
+            <param name="bezier"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:netDxf.DxfRenderer.Draw(System.Object,Kaliber3D.Render.XQBezier,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="doc"></param>
+            <param name="qbezier"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:netDxf.DxfRenderer.Draw(System.Object,Kaliber3D.Render.XText,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="doc"></param>
+            <param name="text"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:netDxf.DxfRenderer.Draw(System.Object,Kaliber3D.Render.XImage,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="doc"></param>
+            <param name="image"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="M:netDxf.DxfRenderer.Draw(System.Object,Kaliber3D.Render.XPath,System.Double,System.Double,System.Collections.Immutable.ImmutableArray{Kaliber3D.Render.ShapeProperty},Kaliber3D.Render.Record)">
+            <summary>
+            
+            </summary>
+            <param name="doc"></param>
+            <param name="path"></param>
+            <param name="dx"></param>
+            <param name="dy"></param>
+            <param name="db"></param>
+            <param name="r"></param>
+        </member>
+        <member name="P:netDxf.DxfRenderer.State">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

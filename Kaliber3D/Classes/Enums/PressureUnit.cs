@@ -1,0 +1,41 @@
+﻿// Copyright © 2015 by Tung
+namespace Kaliber3D
+{
+    public enum PressureUnit
+    {
+        Undefined = 0,
+        Atmosphere,
+        Bar,
+        Centibar,
+        Decapascal,
+        Decibar,
+        Gigapascal,
+        Hectopascal,
+        Kilobar,
+        KilogramForcePerSquareCentimeter,
+        KilogramForcePerSquareMeter,
+        KilogramForcePerSquareMillimeter,
+        KilonewtonPerSquareCentimeter,
+        KilonewtonPerSquareMeter,
+        KilonewtonPerSquareMillimeter,
+        Kilopascal,
+        KilopoundForcePerSquareFoot,
+        KilopoundForcePerSquareInch,
+        Megabar,
+        Megapascal,
+        Micropascal,
+        Millibar,
+        NewtonPerSquareCentimeter,
+        NewtonPerSquareMeter,
+        NewtonPerSquareMillimeter,
+        Pascal,
+        PoundForcePerSquareFoot,
+        PoundForcePerSquareInch,
+        Psi,
+        TechnicalAtmosphere,
+        TonneForcePerSquareCentimeter,
+        TonneForcePerSquareMeter,
+        TonneForcePerSquareMillimeter,
+        Torr,
+    }
+}

@@ -1,0 +1,8 @@
+C:\Users\Nguyent04\Desktop\Kaliber3D.Render-master\Kaliber3D.Render\bin\Debug\Kaliber3D.Render.xml
+C:\Users\Nguyent04\Desktop\Kaliber3D.Render-master\Kaliber3D.Render\bin\Debug\Kaliber3D.Render.dll
+C:\Users\Nguyent04\Desktop\Kaliber3D.Render-master\Kaliber3D.Render\bin\Debug\Kaliber3D.Render.pdb
+C:\Users\Nguyent04\Desktop\Kaliber3D.Render-master\Kaliber3D.Render\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Nguyent04\Desktop\Kaliber3D.Render-master\Kaliber3D.Render\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Nguyent04\Desktop\Kaliber3D.Render-master\Kaliber3D.Render\obj\Debug\Kaliber3D.Render.csprojResolveAssemblyReference.cache
+C:\Users\Nguyent04\Desktop\Kaliber3D.Render-master\Kaliber3D.Render\obj\Debug\Kaliber3D.Render.dll
+C:\Users\Nguyent04\Desktop\Kaliber3D.Render-master\Kaliber3D.Render\obj\Debug\Kaliber3D.Render.pdb

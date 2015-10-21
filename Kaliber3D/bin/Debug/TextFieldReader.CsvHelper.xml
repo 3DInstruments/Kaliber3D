@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TextFieldReader.CsvHelper</name>
+    </assembly>
+    <members>
+        <member name="T:Kaliber3D.Render.CsvHelperReader">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Kaliber3D.Render.CsvHelperReader.ReadInternal(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kaliber3D.Render.CsvHelperReader.Read(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
