@@ -96,6 +96,7 @@
             this.eoBackward = new DevExpress.XtraBars.BarButtonItem();
             this.eoFront = new DevExpress.XtraBars.BarButtonItem();
             this.eoForward = new DevExpress.XtraBars.BarButtonItem();
+            this.btnConnect = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonImageCollectionLarge = new DevExpress.Utils.ImageCollection(this.components);
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -180,7 +181,8 @@
             this.saveFileDialog2 = new System.Windows.Forms.SaveFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.btnConnect = new DevExpress.XtraBars.BarButtonItem();
+            this.CvsInSightDisplay1 = new Cognex.InSight.Controls.Display.CvsInSightDisplay();
+            this.cvsInSightDisplay2 = new Cognex.InSight.Controls.Display.CvsInSightDisplay();
             ((System.ComponentModel.ISupportInitialize)(this.navbarImageCollectionLarge)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.navbarImageCollection)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl)).BeginInit();
@@ -214,6 +216,7 @@
             ((System.ComponentModel.ISupportInitialize)(lineSeriesView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(lineSeriesView2)).BeginInit();
             this.dockPanel1.SuspendLayout();
+            this.dockPanel1_Container.SuspendLayout();
             this.dockPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.document2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.documentGroup1)).BeginInit();
@@ -905,6 +908,15 @@
             this.eoForward.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("eoForward.LargeGlyph")));
             this.eoForward.Name = "eoForward";
             // 
+            // btnConnect
+            // 
+            this.btnConnect.Caption = "Connect";
+            this.btnConnect.Glyph = ((System.Drawing.Image)(resources.GetObject("btnConnect.Glyph")));
+            this.btnConnect.Id = 54;
+            this.btnConnect.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btnConnect.LargeGlyph")));
+            this.btnConnect.Name = "btnConnect";
+            this.btnConnect.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnConnect_ItemClick);
+            // 
             // ribbonImageCollectionLarge
             // 
             this.ribbonImageCollectionLarge.ImageSize = new System.Drawing.Size(32, 32);
@@ -1564,6 +1576,7 @@
             // 
             // dockPanel1_Container
             // 
+            this.dockPanel1_Container.Controls.Add(this.cvsInSightDisplay2);
             this.dockPanel1_Container.Location = new System.Drawing.Point(0, 0);
             this.dockPanel1_Container.Name = "dockPanel1_Container";
             this.dockPanel1_Container.Size = new System.Drawing.Size(551, 542);
@@ -1696,14 +1709,26 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // btnConnect
+            // CvsInSightDisplay1
             // 
-            this.btnConnect.Caption = "Connect";
-            this.btnConnect.Glyph = ((System.Drawing.Image)(resources.GetObject("btnConnect.Glyph")));
-            this.btnConnect.Id = 54;
-            this.btnConnect.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("btnConnect.LargeGlyph")));
-            this.btnConnect.Name = "btnConnect";
-            this.btnConnect.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnConnect_ItemClick);
+            this.CvsInSightDisplay1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.CvsInSightDisplay1.DefaultTextScaleMode = Cognex.InSight.Controls.Display.CvsInSightDisplay.TextScaleModeType.Proportional;
+            this.CvsInSightDisplay1.DialogIcon = null;
+            this.CvsInSightDisplay1.Location = new System.Drawing.Point(8, 21);
+            this.CvsInSightDisplay1.Name = "CvsInSightDisplay1";
+            this.CvsInSightDisplay1.Size = new System.Drawing.Size(568, 315);
+            this.CvsInSightDisplay1.TabIndex = 1;
+            // 
+            // cvsInSightDisplay2
+            // 
+            this.cvsInSightDisplay2.DefaultTextScaleMode = Cognex.InSight.Controls.Display.CvsInSightDisplay.TextScaleModeType.Proportional;
+            this.cvsInSightDisplay2.DialogIcon = null;
+            this.cvsInSightDisplay2.Location = new System.Drawing.Point(9, 14);
+            this.cvsInSightDisplay2.Name = "cvsInSightDisplay2";
+            this.cvsInSightDisplay2.Size = new System.Drawing.Size(539, 427);
+            this.cvsInSightDisplay2.TabIndex = 0;
             // 
             // frmMain
             // 
@@ -1754,6 +1779,7 @@
             ((System.ComponentModel.ISupportInitialize)(lineSeriesView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
             this.dockPanel1.ResumeLayout(false);
+            this.dockPanel1_Container.ResumeLayout(false);
             this.dockPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.document2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.documentGroup1)).EndInit();
@@ -1917,6 +1943,8 @@
         private DevExpress.XtraBars.BarButtonItem eoFront;
         private DevExpress.XtraBars.BarButtonItem eoForward;
         private DevExpress.XtraBars.BarButtonItem btnConnect;
+        private Cognex.InSight.Controls.Display.CvsInSightDisplay cvsInSightDisplay2;
+        internal Cognex.InSight.Controls.Display.CvsInSightDisplay CvsInSightDisplay1;
 
     }
 }

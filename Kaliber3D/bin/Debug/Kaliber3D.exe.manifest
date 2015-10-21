@@ -43,6 +43,80 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Cognex.Cnx.Common" version="3.4.4.4" publicKeyToken="E40FE3B96EECA5DE" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Cognex.Cnx.Controls" version="3.4.4.4" publicKeyToken="E40FE3B96EECA5DE" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Cognex.Cnx.Core" version="3.4.4.4" publicKeyToken="E40FE3B96EECA5DE" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Cognex.Cnx.Framework" version="3.4.4.4" publicKeyToken="E40FE3B96EECA5DE" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Cognex.Explorer.Framework" version="4.7.3.2" publicKeyToken="6B9774AFDDB09935" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Cognex.Explorer.Interfaces" version="4.7.3.2" publicKeyToken="6B9774AFDDB09935" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Cognex.InSight.Controls" version="4.7.3.2" publicKeyToken="6B9774AFDDB09935" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Cognex.InSight.Explorer.Resources" version="4.7.3.2" publicKeyToken="6B9774AFDDB09935" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Cognex.InSight.Internal" version="4.7.3.2" publicKeyToken="6B9774AFDDB09935" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="SandBar" version="1.4.0.1" publicKeyToken="75B7EC17DD7C14C3" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Cognex.InSight.dll" size="929792">
+      <assemblyIdentity name="Cognex.InSight" version="4.7.3.2" publicKeyToken="6B9774AFDDB09935" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>I4oro5kckM50QH7Q3pv5xHMyvWbMA0W2Zc1JjYQAld8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Cognex.InSight.Controls.Display.dll" size="7401472">
+      <assemblyIdentity name="Cognex.InSight.Controls.Display" version="4.7.3.2" publicKeyToken="6B9774AFDDB09935" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>JSOEMmQfao+VjABVV/iEXYaUl5/JBO/4ZAeDOXDBffY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CsvHelper.dll" size="80384">
       <assemblyIdentity name="CsvHelper" version="2.0.0.0" publicKeyToken="8C4959082BE5C823" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -404,25 +478,25 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FileWriter.Dxf.dll" size="4608">
-      <assemblyIdentity name="FileWriter.Dxf" version="0.1.5772.20325" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="FileWriter.Dxf" version="0.1.5772.24230" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>r7htdIYAuWUMmqhY8b/0LxCtfdtOmEpxgS7DfNYxq+Q=</dsig:DigestValue>
+        <dsig:DigestValue>+h0pTYFMJbDxGSffihJ3Wfpx8Q4xDr4Ps7iaMqubRJU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FileWriter.Pdf-core.dll" size="5120">
-      <assemblyIdentity name="FileWriter.Pdf-core" version="0.1.5772.20321" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="FileWriter.Pdf-core" version="0.1.5772.24226" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>fpqPSfAuuoL7UAf7RxpCkl1ayiU645ii4b0ZANzJ+AY=</dsig:DigestValue>
+        <dsig:DigestValue>ddt1GiGt/tdnwwoHqiclMW84If6q9A+KRJW0H2my4V8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -434,31 +508,31 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>u61RySeM7ntbtiTz0kuI+VuEOjoFQVol/bbpZKIg5zY=</dsig:DigestValue>
+        <dsig:DigestValue>SYFzvoteGXy3nkprtlkJemYBVAuMO2plpDnIglpLHT4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Kaliber3D.Render.dll" size="337920">
-      <assemblyIdentity name="Kaliber3D.Render" version="0.1.5772.20321" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Kaliber3D.Render" version="0.1.5772.24225" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Z/iTBeyGletbwG0yEOcZw3Xvh3DmwXajlSvYnav1Wj4=</dsig:DigestValue>
+        <dsig:DigestValue>pAK6084G7WM9ksi82HQWggC2RpS33JBKh9VH+nVWK7E=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Log.Trace.dll" size="5632">
-      <assemblyIdentity name="Log.Trace" version="0.1.5772.20321" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Log.Trace" version="0.1.5772.24226" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>bklX3zSojloKWGblER3UTrs1AqhX0BbbXyBH0rCjwn0=</dsig:DigestValue>
+        <dsig:DigestValue>DQl5gUe7KtmHZPLCrz3FdvcgU71wCFqsNkSN05CjZSY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -470,7 +544,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>46aChvfGwMKxw2d1f8DzDvitPGvzQRqQdVd1zpqXGjM=</dsig:DigestValue>
+        <dsig:DigestValue>05PbY6E7V8LVuFlDpx+ctkuNrMaAiICN8GFE+esUYro=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -500,49 +574,49 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Renderer.Dxf.dll" size="21504">
-      <assemblyIdentity name="Renderer.Dxf" version="0.1.5772.20325" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Renderer.Dxf" version="0.1.5772.24230" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>GBudHAkXczTDQ8zR8wh4Z1p5EMJWioPwLb3NEFyWNP0=</dsig:DigestValue>
+        <dsig:DigestValue>IbCI7065AZJ19QNUYaBtJ3m8cA0hH0oiYXGrq54RiE8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Renderer.PdfSharp-core.dll" size="23552">
-      <assemblyIdentity name="Renderer.PdfSharp-core" version="0.1.5772.20321" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Renderer.PdfSharp-core" version="0.1.5772.24226" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>76PHKIjh+illVy0Q+PNb9RHQQekOY5iodOCCvdn30T0=</dsig:DigestValue>
+        <dsig:DigestValue>+TfqdUJM3q2gXHNbnwjK1CGSoNHbp3T8KAS1AKsjQ5M=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Renderer.WinForms.dll" size="21504">
-      <assemblyIdentity name="Renderer.WinForms" version="0.1.5772.20321" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Renderer.WinForms" version="0.1.5772.24226" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>HcD67hyRyfL3+h2Ld/QRorw7NX/VTV1LBqKAFvw/ZmE=</dsig:DigestValue>
+        <dsig:DigestValue>sBlP/mhe9jVky2Wnwztk9pNiIgKfkBwU07vogC5XFj8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Serializer.Newtonsoft.dll" size="6144">
-      <assemblyIdentity name="Serializer.Newtonsoft" version="0.1.5772.20321" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Serializer.Newtonsoft" version="0.1.5772.24226" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>mWgRNU0jzzVxfthpkSYOoVsfGflkxhzp50+gP02YfLQ=</dsig:DigestValue>
+        <dsig:DigestValue>fYT+E26xrdLPwSE1kjUe+QvPOTecU8W5I9ISqD/s8E8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -560,25 +634,25 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TextFieldReader.CsvHelper.dll" size="7680">
-      <assemblyIdentity name="TextFieldReader.CsvHelper" version="0.1.5772.20321" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="TextFieldReader.CsvHelper" version="0.1.5772.24226" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>XXJrXYpoQEvv/geE3DyljasoE/pb4Fp8nr5zEH1tO8g=</dsig:DigestValue>
+        <dsig:DigestValue>rpvgrFz+9aM2gan2pwE9JEAVRG52kDq8LHyTPAZxaJs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TextFieldWriter.CsvHelper.dll" size="6656">
-      <assemblyIdentity name="TextFieldWriter.CsvHelper" version="0.1.5772.20321" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="TextFieldWriter.CsvHelper" version="0.1.5772.24226" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>XOZOxHOEfumLemSF8pbZbI6eSqByrpWcW8mChTR93vw=</dsig:DigestValue>
+        <dsig:DigestValue>pFZuIXK6VeS6k7uH2WZddfXjhfi0XD0P21koHakLsfQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

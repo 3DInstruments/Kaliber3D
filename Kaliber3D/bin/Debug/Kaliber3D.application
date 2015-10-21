@@ -7,14 +7,14 @@
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Kaliber3D.exe.manifest" size="34974">
+    <dependentAssembly dependencyType="install" codebase="Kaliber3D.exe.manifest" size="39339">
       <assemblyIdentity name="Kaliber3D.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+UTM9Ekbq3BzP00SU5xEckooXUywnQ2Ma4YZPAuQLRU=</dsig:DigestValue>
+        <dsig:DigestValue>jJXJqqtcNhPj792fQ2jlRPHCd8HZhdwjs84pu7bnTkw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

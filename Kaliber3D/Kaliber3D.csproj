@@ -72,6 +72,8 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Cognex.InSight, Version=4.7.3.2, Culture=neutral, PublicKeyToken=6b9774afddb09935, processorArchitecture=x86" />
+    <Reference Include="Cognex.InSight.Controls.Display, Version=4.7.3.2, Culture=neutral, PublicKeyToken=6b9774afddb09935, processorArchitecture=x86" />
     <Reference Include="DevExpress.BonusSkins.v15.1, Version=15.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
     </Reference>

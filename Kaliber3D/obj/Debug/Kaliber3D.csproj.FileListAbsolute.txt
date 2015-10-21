@@ -672,3 +672,7 @@ D:\GitHub\Kaliber3D\Kaliber3D\bin\Debug\de\DevExpress.XtraScheduler.v15.1.Extens
 D:\GitHub\Kaliber3D\Kaliber3D\bin\Debug\es\DevExpress.XtraScheduler.v15.1.Extensions.resources.dll
 D:\GitHub\Kaliber3D\Kaliber3D\bin\Debug\ja\DevExpress.XtraScheduler.v15.1.Extensions.resources.dll
 D:\GitHub\Kaliber3D\Kaliber3D\bin\Debug\ru\DevExpress.XtraScheduler.v15.1.Extensions.resources.dll
+D:\GitHub\Kaliber3D\Kaliber3D\bin\Debug\Cognex.InSight.Controls.Display.dll
+D:\GitHub\Kaliber3D\Kaliber3D\bin\Debug\Cognex.InSight.dll
+D:\GitHub\Kaliber3D\Kaliber3D\bin\Debug\Cognex.InSight.xml
+D:\GitHub\Kaliber3D\Kaliber3D\bin\Debug\Cognex.InSight.Controls.Display.xml
